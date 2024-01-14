@@ -4,14 +4,177 @@
   body {
     margin: 0;
     padding: 0;
+    background: #090f00;
 
     header {
+      z-index: 2;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      color: #faebd7;
+      position: relative;
+      background-color: #090f00;
+
+      .logo {
+        position: relative;
+        width: 30vw;
+        animation: glow 5s infinite;
+
+        @keyframes glow {
+          0% {
+            filter: drop-shadow(0 0 0.01rem #faebd7);
+          }
+
+          50% {
+            filter: drop-shadow(0 0 0.06rem #faebd7);
+          }
+
+          100% {
+            filter: drop-shadow(0 0 0.01rem #faebd7);
+          }
+        }
+      }
+
+      .navigation {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: flex-end;
+
+        .list {
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          align-items: flex-end;
+
+          .link {
+            text-decoration: none;
+            font-size: 1.4rem;
+            color: #faebd7;
+            margin-right: 3vw;
+            transition: filter 0.1s ease-in-out;
+
+            &:hover {
+              filter: drop-shadow(0rem 0rem 0.3rem #ea7013);
+            }
+
+            .icon,
+            .text {
+              position: relative;
+              top: 3.5rem;
+              right: 3vw;
+              text-align: center;
+            }
+          }
+        }
+
+        .photo {
+          width: 20vw;
+        }
+
+        .contact {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-decoration: none;
+
+          .phone,
+          .email {
+            color: #faebd7;
+            height: 2rem;
+            text-decoration: none;
+            transition: filter 0.1s ease-in-out;
+
+            &:hover {
+              filter: drop-shadow(0rem 0rem 0.3rem #ea7013);
+            }
+          }
+        }
+      }
     }
 
     main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 0;
+      position: relative;
+      background: #111707;
+
+      .welcome {
+        filter: drop-shadow(0.1rem 0.1rem 0.1rem #1b7d26);
+        padding: 2rem;
+        color: #faebd7;
+      }
+
+      .aida,
+      .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        filter: drop-shadow(0.1rem 0.1rem 0.1rem #1b7d26);
+        background-color: #ea7013;
+        margin: 1.5rem;
+        padding: 3rem;
+
+        .artwork {
+          width: 30vw;
+        }
+      }
+
+      .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem;
+
+        .image {
+          width: 31vw;
+        }
+
+        .photo {
+          width: 40vw;
+        }
+      }
     }
 
     footer {
+      position: relative;
+      width: 100vw;
+      z-index: 1;
+      background: #2c1e1e;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .copyright {
+        color: #faebd7;
+      }
+
+      .link {
+        color: #faebd7;
+        font-size: 2rem;
+
+        &:hover {
+          .facebook {
+            color: #1676ef;
+            filter: drop-shadow(0rem 0rem 0.1rem #4b95ef);
+          }
+
+          .instagram {
+            color: #ce2e94;
+            filter: drop-shadow(0.15rem -0.15rem 0.1rem #653bc5) drop-shadow(-0.15rem 0.15rem 0.1rem #fd9a19);
+          }
+
+          .tiktok {
+            color: #150a18;
+            filter: drop-shadow(0.15rem 0.15rem 0rem #ff1f50) drop-shadow(-0.15rem -0.15rem 0rem #1df2ee);
+          }
+        }
+      }
     }
   }
 }
