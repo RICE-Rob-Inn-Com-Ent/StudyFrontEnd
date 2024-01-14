@@ -25,7 +25,7 @@ const Root = ({ children }) => {
               </Link>
             </li>
           </ul>
-          <img className="photo" src="img/photo.png" alt="Zdjęcie Karola w garniturze" />
+          <img className="photo" src="img/something.png" alt="zdjęcie Karola" />
           <div className="contact">
             <Link className="phone" to="tel:+48669311319">
               +48 669 311 319

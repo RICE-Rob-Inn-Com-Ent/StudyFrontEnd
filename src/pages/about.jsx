@@ -8,7 +8,7 @@ const About = () => {
           <h2>Nasza Misja:</h2>
           <p>Naszym celem jest dostarczanie usług wykończeniowych na najwyższym poziomie!</p>
           <div>
-            <h3>Wartości Naszej Firmy</h3>
+            <h3 className="subtitle">Wartości Naszej Firmy:</h3>
             <ul>
               <li>
                 <strong>Precyzja:</strong> Dbamy o najdrobniejsze detale, zapewniając perfekcyjne wykonanie każdego
@@ -28,9 +28,9 @@ const About = () => {
             </ul>
           </div>
           <p>
-            Niezależnie od skali projektu, nasze podejście skupia się na realizacji wizji klienta, zachowując
-            jednocześnie naszą misję doskonałości. Wierzymy, że wnętrza powinny odzwierciedlać styl i osobowość
-            mieszkańców, dlatego nasze projekty są zawsze unikalne i dopasowane do indywidualnych oczekiwań.
+            Niezależnie od skali projektu, Nasze podejście skupia się na realizacji wizji klienta, zachowując
+            jednocześnie Naszą misję doskonałości. Wierzymy, że wnętrza powinny odzwierciedlać styl i osobowość
+            mieszkańców, dlatego Nasze projekty są zawsze unikalne i dopasowane do indywidualnych oczekiwań.
           </p>
         </section>
         <section>
@@ -41,7 +41,7 @@ const About = () => {
             <img className="image" src="img/room_3.jpg" alt="Jasny salon z dużym białym oknem" />
             <img className="image" src="img/room_4.jpg" alt="Aneks kuchenny" />
           </div>
-          <h3>Doskonała Jakość</h3>
+          <h3 className="subtitle">Doskonała Jakość:</h3>
           <p>
             Nasze prace wyróżniają się nie tylko estetyką, ale również solidnym wykonaniem. Stawiamy na najwyższą jakość
             materiałów i profesjonalizm w każdym detalu.
@@ -51,7 +51,7 @@ const About = () => {
           src="img/precision.png"
           alt="Poziomica jako symbol perfekcji"
         />
-          <h3>Terminowość</h3>
+          <h3 className="subtitle">Terminowość:</h3>
           <p>
             Znamy wartość Twojego czasu. Dlatego zapewniamy terminowe wykonanie prac, byś mógł cieszyć się swoim nowym
             wnętrzem zgodnie z planem.
@@ -61,7 +61,7 @@ const About = () => {
             src="img/profesional.png"
             alt="Mężczyzna mający na wyposarzeniu dużą ilość narzędzi"
           />
-          <h3>Podejście Personalizowane</h3>
+          <h3 className="subtitle">Podejście Personalizowane:</h3>
           <p>
             Każdy projekt traktujemy indywidualnie. Nasze podejście personalizowane sprawia, że Twoje marzenia stają się
             rzeczywistością, odzwierciedlając Twój unikalny styl.
@@ -72,9 +72,9 @@ const About = () => {
             alt="Twój dom w bezpiecznych rękach"
           />
             <br />
-            Zaufaj nam, ponieważ inwestujemy nie tylko w wykończenia, ale także w satysfakcję klienta. Nasze referencje
-            i zadowoleni klienci są najlepszym dowodem na skuteczność naszej misji. Dołącz do grona zadowolonych
-            klientów i przekonaj się, dlaczego warto wybrać KS-MONT na partnera w doskonałym wykończeniu wnętrz.
+            Zaufaj Nam, ponieważ inwestujemy nie tylko w wykończenia, ale także w satysfakcję klienta. Nasze referencje
+            i zadowoleni klienci są najlepszym dowodem na skuteczność Naszej misji. Dołącz do grona zadowolonych
+            klientów i przekonaj się, dlaczego warto wybrać <u>KS-MONT</u> na partnera w doskonałym wykończeniu wnętrz.
           </p>
         </section>
       </article>
