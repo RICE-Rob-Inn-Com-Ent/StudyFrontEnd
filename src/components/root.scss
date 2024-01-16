@@ -15,7 +15,8 @@
       flex-direction: row;
       align-items: center;
       color: #faebd7;
-      position: relative;
+      position: fixed;
+      top: 0;
       background-color: #000000;
 
       .logo {
@@ -78,6 +79,7 @@
     }
 
     main {
+      margin-top: 13rem;
       display: flex;
       flex-direction: column;
       align-items: center;
